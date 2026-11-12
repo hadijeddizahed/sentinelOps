@@ -1,0 +1,35 @@
+[
+  {
+    "incident_id": "INC-8902",
+    "title": "Aurora Primary Connection Pool Exhaustion & Replication Stalling",
+    "service_impacted": "orders-db-aurora-cluster",
+    "raw_alert": {
+      "source": "AWS/RDS",
+      "metric": "DatabaseConnections",
+      "current_value": 498,
+      "threshold": 500,
+      "region": "us-east-1",
+      "db_cluster_identifier": "prod-orders-cluster",
+      "instance_identifier": "prod-orders-primary",
+      "timestamp": "2026-11-11T12:00:00Z"
+    },
+    "ground_truth_runbook": "RB-DB-001",
+    "recommended_remediation": "DRAIN_ORPHANED_CONNECTIONS_THEN_REPLICA_FAILOVER"
+  },
+  {
+    "incident_id": "INC-8903",
+    "title": "K8s Pod CrashLoopBackOff on Payment Ingress Service",
+    "service_impacted": "payment-ingress-deployment",
+    "raw_alert": {
+      "source": "Kubernetes",
+      "event": "BackOff",
+      "namespace": "production",
+      "pod": "payment-ingress-7d4bfb8b9-x29qm",
+      "exit_code": 137,
+      "reason": "OOMKilled",
+      "timestamp": "2026-11-11T12:15:00Z"
+    },
+    "ground_truth_runbook": "RB-K8S-002",
+    "recommended_remediation": "VERTICAL_POD_AUTOSCALER_MEMORY_ADJUST"
+  }
+]
