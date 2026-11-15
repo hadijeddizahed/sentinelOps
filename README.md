@@ -13,13 +13,14 @@ The complete 28-day roadmap and learning contract is documented in [FOUR_WEEK_PL
 
 ---
 
-## 🚀 Current Status: Day 1
+## 🚀 Current Status: Day 2
 
-We are working through the program **day by day**. Each day has its own dedicated documentation guide, hands-on coding exercises, and automated test suite:
+We work through the program **day by day**. Each day has its own dedicated documentation guide, hands-on coding exercises, and automated test suite:
 
-- **Active Guide:** [Day 01 — Transformer Architecture & LLM Internals](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY01_TRANSFORMER_ARCHITECTURE_AND_LLM_INTERNALS.md)
-  - Focus: Self-attention mechanics, tokenization of cloud logs, embeddings, KV cache memory footprint, and hallucination diagnosis.
-  - Video & Reading recommendations: Andrej Karpathy (Let's build GPT), 3Blue1Brown (Visualizing Attention), Umar Jamil (Attention is All You Need).
+- **Active Guide:** [Day 02 — Advanced Prompting & Structured Outputs](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY02_ADVANCED_PROMPTING_AND_STRUCTURED_OUTPUTS.md)
+  - Focus: Pydantic v2 schemas, JSON constraints, Grammar-constrained decoding vs prompting, self-healing reflection loops.
+  - Video & Reading: Jason Liu (Pydantic & Instructor), Hamel Husain (Structured Data with LLMs), Lance Martin (LangChain Structured Outputs).
+- **Completed:** [Day 01 — Transformer Architecture & LLM Internals](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY01_TRANSFORMER_ARCHITECTURE_AND_LLM_INTERNALS.md)
 - **Core Architecture:** [docs/architecture.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/architecture.md)
 - **Security & Threat Model:** [docs/threat-model.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/threat-model.md)
 - **Architecture Decisions:** [ADR 0001: LangGraph Selection](file:///Users/hadi/PycharmProjects/sentinelops/docs/adr/0001_agent_orchestration_framework.md)
@@ -55,4 +56,3 @@ sentinelops/
 │   └── incidents/              # Simulated incidents & golden dataset
 └── docs/                       # Daily documentation guides and ADRs
 ```
-
