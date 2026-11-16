@@ -13,14 +13,16 @@ The complete 28-day roadmap and learning contract is documented in [FOUR_WEEK_PL
 
 ---
 
-## 🚀 Current Status: Day 2
+## 🚀 Current Status: Day 3
 
 We work through the program **day by day**. Each day has its own dedicated documentation guide, hands-on coding exercises, and automated test suite:
 
-- **Active Guide:** [Day 02 — Advanced Prompting & Structured Outputs](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY02_ADVANCED_PROMPTING_AND_STRUCTURED_OUTPUTS.md)
-  - Focus: Pydantic v2 schemas, JSON constraints, Grammar-constrained decoding vs prompting, self-healing reflection loops.
-  - Video & Reading: Jason Liu (Pydantic & Instructor), Hamel Husain (Structured Data with LLMs), Lance Martin (LangChain Structured Outputs).
-- **Completed:** [Day 01 — Transformer Architecture & LLM Internals](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY01_TRANSFORMER_ARCHITECTURE_AND_LLM_INTERNALS.md)
+- **Active Guide:** [Day 03 — Function Calling & Advanced Tool Use](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY03_FUNCTION_CALLING_AND_TOOL_USE.md)
+  - Focus: Typed Pydantic schemas, dynamic ToolRegistry, OpenAPI translation, error recovery loops, and safety scopes (`READ_ONLY` vs `MUTATING`).
+  - Video & Reading: Harrison Chase (LangChain Tool Calling), James Briggs (Function Calling Mechanics), Sam Witteveen (Agentic Tools).
+- **Completed:** 
+  - [Day 01 — Transformer Architecture & LLM Internals](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY01_TRANSFORMER_ARCHITECTURE_AND_LLM_INTERNALS.md)
+  - [Day 02 — Advanced Prompting & Structured Outputs](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY02_ADVANCED_PROMPTING_AND_STRUCTURED_OUTPUTS.md)
 - **Core Architecture:** [docs/architecture.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/architecture.md)
 - **Security & Threat Model:** [docs/threat-model.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/threat-model.md)
 - **Architecture Decisions:** [ADR 0001: LangGraph Selection](file:///Users/hadi/PycharmProjects/sentinelops/docs/adr/0001_agent_orchestration_framework.md)
