@@ -13,17 +13,18 @@ The complete 28-day roadmap and learning contract is documented in [FOUR_WEEK_PL
 
 ---
 
-## 🚀 Current Status: Day 4
+## 🚀 Current Status: Day 5
 
 We work through the program **day by day**. Each day has its own dedicated documentation guide, hands-on coding exercises, and automated test suite:
 
-- **Active Guide:** [Day 04 — Embeddings & Vector Databases](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY04_EMBEDDINGS_AND_VECTOR_DATABASES.md)
-  - Focus: Bi-encoder dense embeddings, similarity metrics (Cosine vs. Dot Product vs. $L_2$), structural Markdown header chunking, and Qdrant vector indexing with payload filtering.
-  - Video & Reading: StatQuest (Vector Embeddings), Qdrant (HNSW & Vector Indexes), Greg Kamradt (5 Levels of Chunking).
+- **Active Guide:** [Day 05 — Advanced RAG Architecture: Hybrid Search & Reranking](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY05_ADVANCED_RAG_HYBRID_AND_RERANKING.md)
+  - Focus: Sparse BM25 (`rank-bm25`) + Dense Qdrant vector search, Reciprocal Rank Fusion (RRF), query expansion, and Stage-2 Cross-Encoder reranking.
+  - Video & Reading: James Briggs (Hybrid Search & RRF), Nils Reimers (Bi-Encoders vs Cross-Encoders), Qdrant (Hybrid Sparse & Dense Search).
 - **Completed:** 
   - [Day 01 — Transformer Architecture & LLM Internals](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY01_TRANSFORMER_ARCHITECTURE_AND_LLM_INTERNALS.md)
   - [Day 02 — Advanced Prompting & Structured Outputs](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY02_ADVANCED_PROMPTING_AND_STRUCTURED_OUTPUTS.md)
   - [Day 03 — Function Calling & Advanced Tool Use](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY03_FUNCTION_CALLING_AND_TOOL_USE.md)
+  - [Day 04 — Embeddings & Vector Databases](file:///Users/hadi/PycharmProjects/sentinelops/docs/DAY04_EMBEDDINGS_AND_VECTOR_DATABASES.md)
 - **Core Architecture:** [docs/architecture.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/architecture.md)
 - **Security & Threat Model:** [docs/threat-model.md](file:///Users/hadi/PycharmProjects/sentinelops/docs/threat-model.md)
 - **Architecture Decisions:** [ADR 0001: LangGraph Selection](file:///Users/hadi/PycharmProjects/sentinelops/docs/adr/0001_agent_orchestration_framework.md)
